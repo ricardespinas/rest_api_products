@@ -8,7 +8,8 @@ This project is a Rest Api App with a single endpoint to get Products where user
     You can use this Bash command from the root directory of your project:
     
     cp .env.example .env
-    cp .env.example .env.testing
+    cp .env.example .env.testing 
+    And add this line TESTING_ENV=true inside .env.testing
 
 ### 2. Laravel requires a unique application key to encrypt data. You can generate this key by running the following command:
 
