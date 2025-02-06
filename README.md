@@ -9,7 +9,7 @@ This project is a Rest Api App with a single endpoint to get Products where user
     
     cp .env.example .env
     cp .env.example .env.testing 
-    And add this line TESTING_ENV=true inside .env.testing
+    And add this line TESTING_ENV=true inside .env.testing and also change DB_DATABASE=DBNAME to DB_DATABASE=DBNAME_tests
 
 ### 2. Laravel requires a unique application key to encrypt data. You can generate this key by running the following command:
 
