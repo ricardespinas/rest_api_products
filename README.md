@@ -45,16 +45,11 @@ This project is a Rest Api App with a single endpoint to get Products where user
 
     php artisan test
 
-### 6. Acces http://localhost
+### 6. Acces http://localhost/products
 
     I used Apache, but you can also use Laravel's built-in server with:
 
         php artisan serve
-
-### 7. Log in
-
-    Check the file \database\seeders\UserSeeder.php. The login credentials can be found there.
-
 
 
 
